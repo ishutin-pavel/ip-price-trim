@@ -1,0 +1,83 @@
+/*
+ * IP Price Trim Block
+ */
+.ip-price-trim {
+}
+.ip-price-trim__title {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #64a104;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.ip-price-trim__row {
+}
+@media(min-width: 900px) {
+  .ip-price-trim__row {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+.ip-price-trim__col {
+  max-width: 435px;
+}
+.ip-price-trim__col_1 {
+  display: none;
+}
+@media(min-width: 900px) {
+  .ip-price-trim__col_1 {
+    display: block;
+  }
+}
+.ip-price-trim__col_2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 900px) {
+  .ip-price-trim__col_2 {
+    margin: unset;
+  }
+}
+.ip-price-trim__img {
+  max-width: 100%;
+}
+.table-wrap {
+  overflow-x: auto;
+}
+.ip-price-trim__table {
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 6px;
+}
+.ip-price-trim__table caption {
+  padding: 5px 15px 6px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border-top: 2px #cacaca solid;
+  background: #f7f7f7;
+}
+.ip-price-trim__table caption h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.ip-price-trim__table tr td {
+  padding: 3px 15px;
+  border: 0;
+}
+.ip-price-trim__table tr td:nth-of-type(2n) {
+  width: 40%;
+  font-weight: 600;
+  color: #8cc34b;
+}
